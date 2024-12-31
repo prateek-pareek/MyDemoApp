@@ -21,6 +21,7 @@ export const fetchItemsSuccess = (items) => ({
   payload: items,
 });
 
+
 export const fetchItemsFailure = (error) => ({
   type: FETCH_ITEMS_FAILURE,
   payload: error,
